@@ -19,6 +19,6 @@ with open("command.sh", "w", encoding="utf-8") as command:
         file_index += 1
         if 50 == file_index:
             command.write('git commit -m "Update."\n')
-            command.write("git push https://zhmgczh:<<api_key>>@github.com/zhmgczh/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents.git\n")
+            command.write("git push https://zhmgczh:<<api_key>>@github.com/ntcctmcr/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents.git\n")
             command.write("sleep $((RANDOM % 4))\n")
             file_index = 0

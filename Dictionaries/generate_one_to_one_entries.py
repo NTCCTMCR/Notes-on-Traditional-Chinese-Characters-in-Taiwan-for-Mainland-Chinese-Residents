@@ -43,11 +43,11 @@ def get_mistakes(character):
     )
     for entry in entries:
         img_url = (
-            "https://raw.githubusercontent.com/zhmgczh/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/master/Sample_of_Mistakes/"
+            "https://raw.githubusercontent.com/ntcctmcr/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/main/Sample_of_Mistakes/"
             + quote(entry[0])
         )
         error_img_url = (
-            "https://mainland-proxy.zh-tw.dpdns.org/zhmgczh/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/master/Sample_of_Mistakes/"
+            "https://mainland-proxy.zh-tw.dpdns.org/ntcctmcr/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/main/Sample_of_Mistakes/"
             + quote(entry[0])
         )
         addition += (

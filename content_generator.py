@@ -231,11 +231,11 @@ def get_mistakes(character):
     )
     for entry in entries:
         img_url = (
-            "https://raw.githubusercontent.com/zhmgczh/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/master/Sample_of_Mistakes/"
+            "https://raw.githubusercontent.com/ntcctmcr/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/main/Sample_of_Mistakes/"
             + quote(entry[0])
         )
         error_img_url = (
-            "https://mainland-proxy.zh-tw.dpdns.org/zhmgczh/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/master/Sample_of_Mistakes/"
+            "https://mainland-proxy.zh-tw.dpdns.org/ntcctmcr/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/main/Sample_of_Mistakes/"
             + quote(entry[0])
         )
         addition += (
@@ -441,11 +441,11 @@ def main(mode=0, email=False):
             )
         article += full_text[-1] + "</p>\n"
         img_url = "https://" + quote(
-            "raw.githubusercontent.com/zhmgczh/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/master/一簡多繁辨析講義/"
+            "raw.githubusercontent.com/ntcctmcr/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/main/一簡多繁辨析講義/"
             + corresponding_png
         )
         error_img_url = "https://" + quote(
-            "mainland-proxy.zh-tw.dpdns.org/zhmgczh/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/master/一簡多繁辨析講義/"
+            "mainland-proxy.zh-tw.dpdns.org/ntcctmcr/Notes-on-Traditional-Chinese-Characters-in-Taiwan-for-Mainland-Chinese-Residents/main/一簡多繁辨析講義/"
             + corresponding_png
         )
         article += (

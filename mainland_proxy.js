@@ -1,3 +1,4 @@
+const ALLOWED_OWNERS = new Set(["ntcctmcr"]);
 function getOwnerFromPath(pathname) {
   const parts = pathname.split("/").filter(Boolean);
   return parts[0] || "";
@@ -14,7 +15,7 @@ export default {
     }
     const url = new URL(request.url);
     const owner = getOwnerFromPath(url.pathname);
-    if (owner !== "zhmgczh") {
+    if (!ALLOWED_OWNERS.has(owner.toLowerCase())) {
       return new Response("Forbidden: owner not allowed", { status: 403 });
     }
     const targetUrl =
